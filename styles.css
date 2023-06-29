@@ -1,0 +1,185 @@
+@import url(rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin);
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundário: #C0C0C0;
+    --botão-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+    font-family:'Inter', sans-serif ;
+}
+
+.principal {
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__botao{
+    text-decoration: none;
+    background-color: var(--botão-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 1em;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso{
+    font-size: 12px;
+    color: var(--cinza-secundário);
+    font-family:'Inter', sans-serif;
+
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em 0 10em;
+}
+
+.descricao__titulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: var(--cinza-secundário);
+    font-weight: 100;
+}
+
+.descricao__titulo__01 {
+    font-family:'Inter', sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 0.5;
+}
+
+.terciario {
+    align-items: center;
+    margin: 0 10em 0 10em;
+}
+
+.descricao__titulo02 {
+color: var(--cinza-secundário);
+margin-bottom: 0.5em;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-weight: 400;
+}
+
+.container__botao02 {
+    text-decoration: none;
+    background-color: var(--botão-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    font-family: 'Inter', sans-serif;
+    margin: 1em;
+    display:inline-block ;
+}
+
+.padding {
+    padding: 1em;
+}
+
+.dispositivos__lista {
+display: flex;
+align-items: center;
+justify-content: center;
+list-style-type: none;
+margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__favoritos {
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.lista__item {
+    color: var(--branco-principal);
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.rodape__lista { 
+    
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 1em;
+    text-decoration: none;
+}
+
+.lista__link02 {
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+    font-family: 'Inter', sans-serif;
+}
+ .rodape__texto {
+margin: 1em 0;
+color: var(--cinza-secundário);
+font-size: 14px;
+font-family: 'Inter', sans-serif;
+ }
+ 
+ .rodape {
+    text-align: center;
+    margin: 5em 0;
+ }
+
+ .lista__link02:hover {
+    color: var(--botão-azul);
+ }
+
+ .lista__link02:active {
+    color: var(--cinza-secundário);
+ }
